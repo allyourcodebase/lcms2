@@ -1,0 +1,13 @@
+.{
+    .name = .lcms2,
+    .version = "2.18.0",
+    .dependencies = .{
+        .upstream = .{
+            .url = "https://github.com/mm2/Little-CMS/releases/download/lcms2.18/lcms2-2.18.tar.gz",
+            .hash = "N-V-__8AAKyUrgA7ZZWoqTgGc1qEOWJHeQz5s2OsbbZj9881",
+        },
+    },
+    .minimum_zig_version = "0.16.0-dev.2653+784e89fd4",
+    .paths = .{ "build.zig", "build.zig.zon", "README.md", "LICENSE" },
+    .fingerprint = 0x3fb9167ab30cdb08,
+}
