@@ -2,7 +2,7 @@
     .name = .lcms2,
     .version = "2.18.0",
     .dependencies = .{
-        .upstream = .{
+        .lcms2_c = .{
             .url = "https://github.com/mm2/Little-CMS/releases/download/lcms2.18/lcms2-2.18.tar.gz",
             .hash = "N-V-__8AAKyUrgA7ZZWoqTgGc1qEOWJHeQz5s2OsbbZj9881",
         },
